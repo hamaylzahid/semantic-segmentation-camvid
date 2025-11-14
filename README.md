@@ -38,7 +38,7 @@ to segment real-world urban driving environments with high accuracy.
 <hr>
 
 <!-- Overview -->
-<h2 id="overview" align="center">🧠 Project Overview</h2>
+<br><h2 id="overview" align="center">🧠 Project Overview</h2><br>
 
 <p>
 This project implements a high-performance <strong>U-Net</strong> model — a fully convolutional encoder-decoder architecture<br>
@@ -73,7 +73,9 @@ Perfect for autonomous driving research, segmentation-based CV projects, and dee
 
 <hr>
 <!-- Dataset Section -->
-<h2 align="center" id ="Dataset" >📂 Dataset: CamVid Urban Scene Segmentation</h2>
+<br><h2 align="center" id ="Dataset" >Dataset </h2><br>
+
+### CamVid Urban Scene Segmentation
 
 <p>
 The <strong>CamVid dataset</strong> is a high-quality road-scene segmentation dataset widely used in computer vision research.<br>
@@ -93,15 +95,15 @@ Road, Building, Sky, Car, Pedestrian, Tree, Sign, Fence, Sidewalk, and more.
 
 <!-- Kaggle Button -->
 <p align="center">
-    <a href="YOUR-KAGGLE-LINK-HERE" target="_blank">
-        <img src="https://www.kaggle.com/datasets/carlolepelaars/camvid?" alt="Kaggle Dataset Badge">
-    </a>
+    <a href="https://www.kaggle.com/datasets/carlolepelaars/camvid?" target="_blank">
+        <img src="https://img.shields.io/badge/Kaggle-View%20Dataset-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Badge" />
+</a>
 </p>
 
 <hr>
 
 
-<h2 id="objectives" align="center">🎯 Core Objectives</h2>
+<br><h2 id="objectives" align="center">🎯 Core Objectives</h2><br>
 <ul>
   <li>Implement U-Net architecture from scratch or pretrained</li>
   <li>Train on CamVid dataset with proper augmentation</li>
@@ -110,9 +112,9 @@ Road, Building, Sky, Car, Pedestrian, Tree, Sign, Fence, Sidewalk, and more.
   <li>Evaluate using IoU, Pixel Accuracy, and Loss curves</li>
 </ul>
 <hr>
-<h2 align="center">🧩 Key Code Snippets</h2>
+<br><h2 align="center">🧩 Key Code Snippets</h2><br>
 
-<p align="center">
+<p>
 Below are essential code excerpts showcasing model architecture,<br>
 training pipeline, evaluation workflow, and inference steps.  
 These give readers a quick but powerful understanding of the implementation.
@@ -127,7 +129,7 @@ These give readers a quick but powerful understanding of the implementation.
 
 </code>
 
----
+<br>
 
 ### Training Loop 
 
@@ -152,7 +154,7 @@ These give readers a quick but powerful understanding of the implementation.
     
 </code>
 
----
+<br>
 
 ### Validation Step
 
@@ -174,7 +176,7 @@ These give readers a quick but powerful understanding of the implementation.
 
 </code>
 <hr>
-<h2 id="installation" align="center">Setup & Installation
+<br><h2 id="installation" align="center">Setup & Installation > <br>
   
 ### Clone repository
 
@@ -195,7 +197,7 @@ jupyter notebook "Semantic_Segmentation_with_U-Net.ipynb"
 <hr>
 
 
-<h2 id="tools" align="center">💼 Libraries & Tools</h2>
+<br><h2 id="tools" align="center">💼 Libraries & Tools</h2><br>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-red?style=flat-square&logo=pytorch" />
@@ -207,7 +209,7 @@ jupyter notebook "Semantic_Segmentation_with_U-Net.ipynb"
 
 <hr>
 
-<h2 align="center">🤝 Contact & Contribution</h2><br>
+<br><h2 align="center">🤝 Contact & Contribution</h2><br><br>
 
 <p align="center">
   Have feedback, want to collaborate, or just say hello?<br>
